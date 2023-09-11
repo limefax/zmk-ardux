@@ -1,0 +1,6 @@
+if SHIELD_KKB
+
+config ZMK_KEYBOARD_NAME
+    default "KKB"
+
+endif
