@@ -11,8 +11,8 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - board: kkb
-            shield: seeediuno_xiao_ble
+          - board: seeediuno_xiao_ble
+            shield: kkb
     steps:
       - name: Checkout
         uses: actions/checkout@v2
